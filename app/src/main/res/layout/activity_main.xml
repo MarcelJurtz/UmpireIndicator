@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jurtz.marcel.umpireindicator.MainActivity">
+
+
+    <!-- Outs -->
+
+     <TextView
+        android:id="@+id/txtOuts"
+        style="@style/ScoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="O" />
+
+
+    <ImageButton
+        android:id="@+id/cmdOutsPlus"
+        style="@style/ButtonUp"
+        android:layout_toLeftOf="@id/txtOuts"
+        android:layout_toStartOf="@id/txtOuts"
+        android:layout_alignTop="@id/txtOuts"
+        android:layout_alignBottom="@id/txtOuts"/>
+
+    <ImageButton
+        android:id="@+id/cmdOutsMinus"
+        style="@style/ButtonDown"
+        android:layout_toRightOf="@id/txtOuts"
+        android:layout_toEndOf="@id/txtOuts"
+        android:layout_alignTop="@id/txtOuts"
+        android:layout_alignBottom="@id/txtOuts"/>
+
+    <!-- Innings -->
+
+    <TextView
+        android:id="@+id/txtInnings"
+        style="@style/ScoreTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="I" />
+
+    <ImageButton
+        android:id="@+id/cmdInningsPlus"
+        style="@style/ButtonUp"
+        android:layout_toLeftOf="@id/txtInnings"
+        android:layout_alignTop="@id/txtInnings"
+        android:layout_alignBottom="@id/txtInnings"/>
+
+    <ImageButton
+        android:id="@+id/cmdInningsMinus"
+        style="@style/ButtonDown"
+        android:layout_toRightOf="@id/txtInnings"
+        android:layout_alignTop="@id/txtInnings"
+        android:layout_alignBottom="@id/txtInnings"/>
+
+
+
+    <!-- Balls -->
+
+    <TextView
+        android:id="@+id/txtBalls"
+        style="@style/ScoreTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="B" />
+
+    <ImageButton
+        android:id="@+id/cmdBallsPlus"
+        style="@style/ButtonUp"
+        android:layout_toLeftOf="@id/txtBalls"
+        android:layout_alignTop="@id/txtBalls"
+        android:layout_alignBottom="@id/txtBalls"/>
+
+    <ImageButton
+        android:id="@+id/cmdBallsMinus"
+        style="@style/ButtonDown"
+        android:layout_toRightOf="@id/txtBalls"
+        android:layout_alignTop="@id/txtBalls"
+        android:layout_alignBottom="@id/txtBalls"/>
+
+    <!-- Strikes -->
+
+    <TextView
+        android:id="@+id/txtStrikes"
+        style="@style/ScoreTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:text="S"/>
+
+    <ImageButton
+        android:id="@+id/cmdStrikesPlus"
+        style="@style/ButtonUp"
+        android:layout_toLeftOf="@id/txtStrikes"
+        android:layout_alignTop="@id/txtStrikes"
+        android:layout_alignBottom="@id/txtStrikes"/>
+
+    <ImageButton
+        android:id="@+id/cmdStrikesMinus"
+        style="@style/ButtonDown"
+        android:layout_toRightOf="@id/txtStrikes"
+        android:layout_alignTop="@id/txtStrikes"
+        android:layout_alignBottom="@id/txtStrikes"/>
+
+</RelativeLayout>
