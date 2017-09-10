@@ -14,24 +14,8 @@
         style="@style/ScoreTextView"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+         android:layout_marginBottom="@dimen/margin_main"
         android:text="O" />
-
-
-    <ImageButton
-        android:id="@+id/cmdOutsPlus"
-        style="@style/ButtonUp"
-        android:layout_toLeftOf="@id/txtOuts"
-        android:layout_toStartOf="@id/txtOuts"
-        android:layout_alignTop="@id/txtOuts"
-        android:layout_alignBottom="@id/txtOuts"/>
-
-    <ImageButton
-        android:id="@+id/cmdOutsMinus"
-        style="@style/ButtonDown"
-        android:layout_toRightOf="@id/txtOuts"
-        android:layout_toEndOf="@id/txtOuts"
-        android:layout_alignTop="@id/txtOuts"
-        android:layout_alignBottom="@id/txtOuts"/>
 
     <!-- Innings -->
 
@@ -40,24 +24,8 @@
         style="@style/ScoreTextView"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="@dimen/margin_main"
         android:text="I" />
-
-    <ImageButton
-        android:id="@+id/cmdInningsPlus"
-        style="@style/ButtonUp"
-        android:layout_toLeftOf="@id/txtInnings"
-        android:layout_alignTop="@id/txtInnings"
-        android:layout_alignBottom="@id/txtInnings"/>
-
-    <ImageButton
-        android:id="@+id/cmdInningsMinus"
-        style="@style/ButtonDown"
-        android:layout_toRightOf="@id/txtInnings"
-        android:layout_alignTop="@id/txtInnings"
-        android:layout_alignBottom="@id/txtInnings"/>
-
-
 
     <!-- Balls -->
 
@@ -66,23 +34,9 @@
         style="@style/ScoreTextView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="25dp"
+        android:layout_marginTop="@dimen/margin_main"
+        android:layout_marginLeft="@dimen/margin_main"
         android:text="B" />
-
-    <ImageButton
-        android:id="@+id/cmdBallsPlus"
-        style="@style/ButtonUp"
-        android:layout_toLeftOf="@id/txtBalls"
-        android:layout_alignTop="@id/txtBalls"
-        android:layout_alignBottom="@id/txtBalls"/>
-
-    <ImageButton
-        android:id="@+id/cmdBallsMinus"
-        style="@style/ButtonDown"
-        android:layout_toRightOf="@id/txtBalls"
-        android:layout_alignTop="@id/txtBalls"
-        android:layout_alignBottom="@id/txtBalls"/>
 
     <!-- Strikes -->
 
@@ -91,22 +45,8 @@
         style="@style/ScoreTextView"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginTop="@dimen/margin_main"
+        android:layout_marginRight="@dimen/margin_main"
         android:text="S"/>
-
-    <ImageButton
-        android:id="@+id/cmdStrikesPlus"
-        style="@style/ButtonUp"
-        android:layout_toLeftOf="@id/txtStrikes"
-        android:layout_alignTop="@id/txtStrikes"
-        android:layout_alignBottom="@id/txtStrikes"/>
-
-    <ImageButton
-        android:id="@+id/cmdStrikesMinus"
-        style="@style/ButtonDown"
-        android:layout_toRightOf="@id/txtStrikes"
-        android:layout_alignTop="@id/txtStrikes"
-        android:layout_alignBottom="@id/txtStrikes"/>
 
 </RelativeLayout>
