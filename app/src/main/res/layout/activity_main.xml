@@ -49,4 +49,38 @@
         android:layout_marginRight="@dimen/margin_main"
         android:text="S"/>
 
+    <!-- Descriptions -->
+
+    <TextView
+        android:id="@+id/lblBallsDescription"
+        style="@style/DescriptionTextView"
+        android:layout_alignLeft="@+id/txtBalls"
+        android:layout_alignStart="@+id/txtBalls"
+        android:layout_alignRight="@id/txtBalls"
+        android:layout_alignEnd="@id/txtBalls"
+        android:layout_alignTop="@+id/txtBalls"
+        android:text="Ball" />
+
+    <TextView
+        android:id="@+id/lblStrikesDescription"
+        style="@style/DescriptionTextView"
+        android:layout_alignLeft="@+id/txtStrikes"
+        android:layout_alignStart="@+id/txtStrikes"
+        android:layout_alignRight="@id/txtStrikes"
+        android:layout_alignEnd="@id/txtStrikes"
+        android:layout_alignTop="@+id/txtStrikes"
+        android:text="Strike" />
+
+    <TextView
+        android:id="@+id/lblOutsDescription"
+        style="@style/DescriptionTextViewCenter"
+        android:layout_alignTop="@+id/txtOuts"
+        android:text="Out" />
+
+    <TextView
+        android:id="@+id/lblInningsDescription"
+        style="@style/DescriptionTextViewCenter"
+        android:layout_alignTop="@+id/txtInnings"
+        android:text="Inning" />
+
 </RelativeLayout>

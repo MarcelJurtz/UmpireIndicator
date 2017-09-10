@@ -15,7 +15,7 @@ public class Game {
     private final int OUTS_MIN = 0;
     private final int OUTS_MAX = 2;
 
-    private final int INNINGS_MIN = 0;
+    private final int INNINGS_MIN = 1;
     private final int INNINGS_MAX = 9;
 
     public Game() {
